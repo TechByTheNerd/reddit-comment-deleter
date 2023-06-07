@@ -27,8 +27,6 @@ count = 0
 
 print(f"[*] Looping through comments...")
 for comment in comments:
-    #print(comment.body)
-    # if hasattr(comment, "body" ):
     comment.delete()
     print(".", end='', flush=True)
     count = count + 1
